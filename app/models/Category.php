@@ -6,8 +6,5 @@
 	{
 		public $timestamps = false;
 
-		public function book(){
-			return $this->hasMany('Book');
-		}
-
+	
 	}
